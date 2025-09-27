@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreForge</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+            background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+            background-size: 400% 400%;
+            animation: rainbow 60s ease infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        main {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        button {
+            border: none;
+            padding: 10px 20px;
+            background: #fff;
+            color: #000;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        button:hover {
+            background: #ddd;
+        }
+
+        footer {
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .pricing-section {
+            margin-bottom: 40px;
+        }
+
+        .pricing-section h3 {
+            margin-bottom: 20px;
+        }
+
+        .pricing-item {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CoreForge</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="tos.html">ToS</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Pricing</h2>
+        <div class="pricing-section">
+            <h3>Discord Bots</h3>
+            <div class="pricing-item">
+                <h4>All-in-One Bot</h4>
+                <p>A versatile bot with moderation, utility, and fun features.</p>
+                <p>Price: $19.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Moderation Bot</h4>
+                <p>Keep your server safe with automated moderation tools.</p>
+                <p>Price: $14.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Support Bot</h4>
+                <p>Streamline customer support with ticketing and FAQ features.</p>
+                <p>Price: $12.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Giveaway Bot</h4>
+                <p>Host exciting giveaways with easy setup and management.</p>
+                <p>Price: $9.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Utility Bot</h4>
+                <p>Enhance your server with useful tools and commands.</p>
+                <p>Price: $11.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Music Bot</h4>
+                <p>Play high-quality music from various platforms.</p>
+                <p>Price: $15.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Voice Bot</h4>
+                <p>Enhance voice channels with interactive features.</p>
+                <p>Price: $13.99 (one-time purchase)</p>
+                <button>Purchase</button>
+            </div>
+        </div>
+
+        <div class="pricing-section">
+            <h3>Bot Hosting</h3>
+            <p>Keep your bots online 24/7 with our reliable hosting plans.</p>
+            <div class="pricing-item">
+                <h4>Basic Hosting</h4>
+                <p>Perfect for small servers with 1-2 bots.</p>
+                <p>Price: $2.99/month</p>
+                <button>Subscribe</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Standard Hosting</h4>
+                <p>Ideal for medium-sized servers with multiple bots.</p>
+                <p>Price: $4.99/month</p>
+                <button>Subscribe</button>
+            </div>
+            <div class="pricing-item">
+                <h4>Premium Hosting</h4>
+                <p>Best for large servers with high-performance needs.</p>
+                <p>Price: $7.99/month</p>
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 CoreForge. All rights reserved.
+    </footer>
+</body>
+</html>
